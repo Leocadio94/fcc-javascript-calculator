@@ -1,0 +1,89 @@
+@import 'https://fonts.googleapis.com/css?family=Archivo+Narrow|Oswald|Pattaya';
+body {
+  font-family: 'Oswald', serif;
+  background: url('http://i.stack.imgur.com/jGlzr.png') no-repeat 0 0 scroll;
+  background-color: #0C0C0C;
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.calculator {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 5%;
+  float: none;
+  background-color: #BABABA;
+  box-shadow: inset 0px 1px 10px 3px black, 5px 10px 15px 12px black;
+  width: 250px;
+}
+
+.title {
+  padding-bottom: 5px;
+}
+
+.fcc {
+  font-family: 'Pattaya', cursive;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.sub {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 15px;
+}
+
+.commands {
+  width: 180px;
+  border: none;
+  background-color: #bdbba8;
+  color: black;
+  border-radius: 5%;
+  box-shadow: inset 0px 1px 3px 1px black;
+  text-align: right;
+}
+
+.commands:focus {
+  outline: none;
+}
+
+.buttons {
+  padding-top: 10px;
+}
+
+.button,
+.button:hover,
+.button:focus {
+  width: 40px;
+  margin-right: 5px;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 15px;
+  box-shadow: 0px 1px 3px 1px black;
+  background-color: #3D3939;
+  color: white;
+  outline: none;
+}
+
+.button:active {
+  box-shadow: inset 0px 1px 3px 1px black;
+  transform: translateY(2px);
+  -webkit-transform:  translateY(2px);
+  -moz-transform: translateY(2px);
+  -ms-transform:  translateY(2px);
+  -o-transform: translateY(2px);
+}
+
+.btn-cmd,
+.btn-cmd:hover,
+.btn-cmd:focus,
+.btn-cmd:active {
+  color: white;
+  background-color: #a95b66;
+  outline: none;
+}
+
+.btn-group {
+  padding-bottom: 10px;
+}
